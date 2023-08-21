@@ -115,8 +115,9 @@ int main(){
 	return 0;
 }
 
-![pro22](https://github.com/KushalR17/pes_asic_class/assets/142383052/a0701f6f-5b55-40aa-9cbb-5b5d9f6deeb0)
 
+
+![pro22](https://github.com/KushalR17/pes_asic_class/assets/142383052/9fd8c800-3aaa-43e2-9fad-a2c45d4279d6)
 
 
 **Signed:**
