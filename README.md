@@ -21,34 +21,90 @@ You can find the necessary materials and scripts for this course on this GitHub 
     Navigate to your "Downloads" directory using the cd Downloads command.
     Run the script using ./run.sh.
 
-**Table of Contents**
+# TABLE OF CONTENTS
+## DAY 1 
+**Introduction to RISCV ISA and GNU Compiler Toolchain**
++ [Introduction to Basic Keywords](#introduction-to-basic-keywords)
+  - Introduction
+  - From Apps to Hardware
+  - Detail Description of Course Content
++ [Labwork for RISCV Toolchain](#labwork-for-riscv-toolchain)
+  - C Program
+  - RISCV GCC Compiler and Dissemble
+  - Spike Simulation and Debug
++ [Integer Number Representation](#integer-number-representation) 
+  - 64-bit Unsigned Numbers
+  - 64-bit Signed Numbers
+  - Labwork For Signed and Unsigned Numbers
 
-**DAY 1**
+## DAY 2 
+**Introduction to ABI and Basic Verification Flow**
++ [Application Binary Interface](#application-binary-interface)
+  - Introduction to ABI
+  - Memory Allocation for Double Words
+  - Load, Add and Store Instructions
+  - 32-Registers and their ABI Names
++ [Labwork using ABI Function Calls](#labwork-using-abi-function-calls)
+  - Algorithm for C Program using ASM
+  - Review ASM Function Calls
+  - Simulate C Program using Function Call
+  - Lab to Run C-Program On RISCV-CPU
 
-1. Introduction to RISCV ISA and GNU Compiler Toolchain
+## DAY 3
+**Introduction to Verilog RTL design and Synthesis**
++ [Introduction to Open-Source Simulator iVerilog](#introduction-to-open-source-simulator-iverilog)
+   - Introduction to iVerilog Design Testbench
++ [Labs using iVerilog and GTKwave](#labs-using-iverilog-and-gtkwave)
+   - Introduction to Lab
+   - iVerilog GTKwave Part-1
+   - iVerilog GTKwave Part-2
++ [Introduction to Yosys and Logic synthesis](#introduction-to-yosys-and-logic-synthesis)
+   - Introduction to Yosys
+   - Introduction to Logic Synthesis
++ [Labs using Yosys and Sky130 PDKs](#labs-using-yosys-and-sky130-pdks)
+   - Yosys good mux
+ 
+## DAY 4
+**Timing Libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles**
++ [Introduction to Timing Dot Libs](#introduction-to-timing-dot-libs)
+  - Introduction to Dot Lib
++ [Hierarchical vs Flat Synthesis](#hierarchical-vs-flat-synthesis)
+  - Hierarchical Synthesis Flat Synthesis 
++ [Various Flop Coding Styles and Optimization](#various-flop-coding-styles-and-optimization)
+  - Why Flops and Flop Coding Styles
+  - Lab Flop Synthesis Simulations
+  - Interesting Optimisations
 
-    Introduction to Basic Keywords
-    Introduction: From Apps to Hardware
-    Detailed Course Content Description
-    Labwork for RISCV Toolchain
+## DAY 5
+**Combinational and Sequential Optmizations**
++ [Introduction to Optimisations](#introduction-to-optimisations)
++ [Combinational Logic Optimisations](#combinational-logic-optimisations)
++ [Sequential Logic Optimisations](#sequential-logic-optimisations)
++ [Sequential Optimisations for Unused Outputs](#sequential-optimisations-for-unused-outputs)
 
-2. C Program
+## DAY 6
+**GLS, Blocking vs Non-Blocking and Synthesis-Simulation Mismatch**
++ [GLS Synthesis-Simulation Mismatch and Blocking Non-Blocking Statements](#gls-synthesis-simulation-mismatch-and-blocking-non-blocking-statements)
+  - GLS Concepts And Flow Using Iverilog
+  - Synthesis Simulation Mismatch
+  - Blocking And Non Blocking Statements In Verilog
+  - Caveats With Blocking Statements
++ [Labs on GLS and Synthesis-Simulation Mismatch](#labs-on-gls-and-synthesis-simulation-mismatch)
++ [Labs on Synth-Sim Mismatch for Blocking Statement](#labs-on-synth-sim-mismatch-for-blocking-statement)
 
-    RISCV GCC Compiler and Disassemble
-    Spike Simulation and Debug
-    Integer Number Representation
-    64-bit Unsigned Numbers
-    64-bit Signed Numbers
-    Labwork for Signed and Unsigned Numbers
 
 
 
-   **ISA (Instruction Set Archhitecture)**
+
+
+    **ISA (Instruction Set Archhitecture)**
         
   ISA defines the interface between a computer's hardware and its software, specifically how the processor and its components interact with the software instructions that drive the execution of tasks.
         It encompasses a set of instructions, addressing modes, data types, registers, memory organization, and the mechanisms for executing and managing instructions.
 
-   **RISC-V (Reduced Instruction Set Computing - Five)**.
+
+
+  **RISC-V (Reduced Instruction Set Computing - Five)**.
        
   It is an open-source Instruction Set Architecture (ISA) that has gained significant attention and adoption in the world of computer architecture and semiconductor design.
         RISC architectures simplify the instruction set by focusing on a smaller set of instructions, each of which can be executed in a single clock cycle. This approach usually leads to faster execution of individual instructions.
